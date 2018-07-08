@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { getBEMClasses } from '../helpers/cssClassesHelper';
 
-import '../styles/header.css';
+import '../styles/components/headerComponent.css';
 
 const headerClasses = getBEMClasses(['header']);
 
@@ -11,9 +11,5 @@ const HeaderComponent = (props, context) => (
     <h1 className={headerClasses('title')}>Aspire Loan App</h1>
   </header>
 );
-
-HeaderComponent.contextTypes = {
-  t: PropTypes.func.isRequired
-};
 
 export default HeaderComponent;

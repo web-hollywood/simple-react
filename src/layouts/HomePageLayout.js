@@ -36,8 +36,4 @@ class HomePageLayout extends React.Component {
   }
 }
 
-HomePageLayout.contextTypes = {
-  t: PropTypes.func.isRequired
-};
-
 export default HomePageLayout;

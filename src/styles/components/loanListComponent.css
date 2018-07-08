@@ -1,0 +1,47 @@
+.loan-list__container {
+	width: 80%;
+	margin: 2rem auto;
+	border: .01rem solid var(--palette01);
+}
+
+.loan-list__row {
+	display: flex;
+	min-height: 3rem;
+	align-items: center;
+	border: .01rem solid var(--palette01);
+}
+
+.loan-list__cell-user {
+	width: 15%;
+}
+
+.loan-list__cell-title {
+	width: 30%;
+}
+
+.loan-list__cell-amount {
+	width: 15%;
+}
+
+.loan-list__cell-status {
+	width: 15%;
+}
+
+.loan-list__cell-repay {
+	width: 10%;
+}
+
+.loan-list__cell-actions {
+	width: 15%;
+}
+
+.loan-list__cell-btn {
+	width: 5rem;
+	height: 2rem;
+	border: 0rem;
+	cursor: pointer;
+}
+
+.loan-list__cell-btn:hover {
+	opacity: .5;
+}

@@ -1,5 +1,5 @@
 const initialState = {
-  userName: 'Test User'
+  userName: 'Test User',
 };
 
 export default function(state = initialState, { type, payload }) {
