@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import HeaderComponent from '../components/HeaderComponent';
+import LoanListComponent from '../components/LoanListComponent';
 
 const mapStateToProps = state => {
 
@@ -10,4 +10,4 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps
-)(HeaderComponent);
+)(LoanListComponent);

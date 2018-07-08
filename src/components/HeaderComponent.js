@@ -7,8 +7,8 @@ import '../styles/header.css';
 const headerClasses = getBEMClasses(['header']);
 
 const HeaderComponent = (props, context) => (
-  <header className="app-header">
-    <h1 className="app-title">Welcome to React</h1>
+  <header className={headerClasses('container')}>
+    <h1 className={headerClasses('title')}>Aspire Loan App</h1>
   </header>
 );
 

@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
 import path from './helpers/path';
-import load from './hocs/load';
 import logo from './logo.svg';
 import './styles/app.css';
 
-const HomePage = load(() => import('./layouts/HomePageLayout'));
-const Header = load(() => import('./containers/HeaderContainer'));
+import HomePage from'./layouts/HomePageLayout';
 
 class App extends Component {
 
@@ -21,7 +19,6 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
         <div className="app">
           <Route path={path('/')} component={HomePage} exact />
         </div>
