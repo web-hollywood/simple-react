@@ -33,8 +33,8 @@ const LoanListComponent = (props, context) => {
 				<div className = {loanListClasses('cell-repay')}>Repaid Amount</div>
 				<div className = {loanListClasses('cell-actions')}>Actions</div>
 			</div>
-    	{ domLoanList }
-  	</div>
+	    	{ domLoanList }
+	  	</div>
 	)
 };
 
